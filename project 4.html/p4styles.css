@@ -1,0 +1,77 @@
+/********w************
+    
+    Project 4 Stylesheet
+    Name: Ravleen Kaur
+    
+
+********************/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh; 
+}
+
+h1 {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+   
+    padding: 20px;
+    text-align: center; 
+    font-style: italic;
+
+
+}
+.special {
+    color: chocolate;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+
+nav {
+    background-color: #333;
+    
+}
+
+ul{
+    top:2px;
+}
+
+
+nav ul li {
+    display:block;
+    margin-right: 50px;
+    margin-bottom: 59px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+

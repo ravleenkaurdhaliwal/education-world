@@ -1,0 +1,142 @@
+/********w************
+    
+    Project 4 Stylesheet
+    Name: Ravleen Kaur 
+
+********************/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 90;
+    padding: 10;
+}
+
+h1 {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header {
+    width: 500px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight:lighter;
+
+
+}
+.navigation {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    position: absolute; 
+    top: 0px; 
+    right: 0;
+    bottom: 200px; 
+    width: 130px; 
+    height: 70vh; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #333;
+}
+
+
+
+
+ul{
+    top:2px;
+}
+
+
+nav ul li {
+    display:block;
+    margin-right: 50px;
+    margin-bottom: 59px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    position: absolute;
+    top:0px;
+    right:400px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="tel"]
+ {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+
+textarea {
+width: 200px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+}
+
+
+.info ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

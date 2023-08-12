@@ -1,0 +1,131 @@
+/********w************
+    
+    Project 4 Stylesheet
+    Name: Ravleen Kaur
+    
+
+********************/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header {
+    width: 500px;
+}
+
+
+ul {
+    background-color: #333;
+    position: absolute; 
+    top: 0px; 
+    right: 0;
+    bottom: 200px; 
+    width: 130px; 
+    height: 90vh; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #333;
+}
+
+
+nav ul li {
+    display:inline-block;
+    margin-right: 60px;
+    margin-bottom: 59px;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+section{
+    position: absolute;
+    top:17px;
+    left:700px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.cont{
+    text-align: center;
+}
+
+.box1 {
+    position: absolute;
+    top: 70px;
+    right: 260px;
+    background-color:peachpuff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+
+
+} 
+
+.box2{
+    position: absolute;
+    top: 70px;
+    right: 560px;
+    background-color:bisque;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+}
+.box3{
+position: absolute;
+    bottom: 70px;
+    right: 260px;
+    background-color:peachpuff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+}
+
+.box4{
+    position: absolute;
+    bottom: 70px;
+    right: 560px;
+    background-color:peachpuff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+
+
+}
